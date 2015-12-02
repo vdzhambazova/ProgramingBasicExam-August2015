@@ -1,0 +1,6 @@
+c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\02. GrandTheftExamo\bin\Debug\_02.GrandTheftExamo.exe.config
+c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\02. GrandTheftExamo\bin\Debug\_02.GrandTheftExamo.exe
+c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\02. GrandTheftExamo\bin\Debug\_02.GrandTheftExamo.pdb
+c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\02. GrandTheftExamo\obj\Debug\_02.GrandTheftExamo.exe
+c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\02. GrandTheftExamo\obj\Debug\_02.GrandTheftExamo.pdb
+c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\02. GrandTheftExamo\obj\Debug\02. GrandTheftExamo.csprojResolveAssemblyReference.cache
