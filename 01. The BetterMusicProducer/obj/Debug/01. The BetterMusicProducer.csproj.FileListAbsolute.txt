@@ -4,3 +4,6 @@ c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicP
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\01. The BetterMusicProducer\obj\Debug\01. The BetterMusicProducer.csprojResolveAssemblyReference.cache
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\01. The BetterMusicProducer\obj\Debug\_01.The_BetterMusicProducer.exe
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\01. The BetterMusicProducer\obj\Debug\_01.The_BetterMusicProducer.pdb
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\01. The BetterMusicProducer\bin\Debug\_01.The_BetterMusicProducer.exe.config
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\01. The BetterMusicProducer\obj\Debug\_01.The_BetterMusicProducer.exe
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\01. The BetterMusicProducer\obj\Debug\_01.The_BetterMusicProducer.pdb

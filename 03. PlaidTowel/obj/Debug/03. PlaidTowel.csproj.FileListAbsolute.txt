@@ -4,3 +4,6 @@ c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicP
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\03. PlaidTowel\obj\Debug\_03.PlaidTowel.exe
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\03. PlaidTowel\obj\Debug\_03.PlaidTowel.pdb
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\03. PlaidTowel\obj\Debug\03. PlaidTowel.csprojResolveAssemblyReference.cache
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\03. PlaidTowel\bin\Debug\_03.PlaidTowel.exe.config
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\03. PlaidTowel\obj\Debug\_03.PlaidTowel.exe
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\03. PlaidTowel\obj\Debug\_03.PlaidTowel.pdb

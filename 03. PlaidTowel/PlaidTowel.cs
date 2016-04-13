@@ -1,130 +1,128 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
-class PlaidTowel
+﻿namespace _03.PlaidTowel
 {
-    static void Main()
+    using System;
+
+    public class PlaidTowel
     {
-        int n = int.Parse(Console.ReadLine());
-        char b = char.Parse(Console.ReadLine());
-        char rh = char.Parse(Console.ReadLine());
-
-        //Top
-
-        string top =
-            new string(b, n) + rh +
-            new string(b, n * 2 - 1) + rh +
-            new string(b, n);
-
-        Console.WriteLine(top);
-
-        //MiddleTop
-        int outerHyphens = n - 1;
-        int innerHyphens = 1;
-
-        for (int i = 0; i < n - 1; i++)
+        static void Main()
         {
+            int n = int.Parse(Console.ReadLine());
+            char b = char.Parse(Console.ReadLine());
+            char rh = char.Parse(Console.ReadLine());
 
-            string topMiddle =
-                new string(b, outerHyphens) + rh +
+            //Top
+
+            string top =
+                new string(b, n) + rh +
+                new string(b, n * 2 - 1) + rh +
+                new string(b, n);
+
+            Console.WriteLine(top);
+
+            //MiddleTop
+            int outerHyphens = n - 1;
+            int innerHyphens = 1;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                string topMiddle =
+                    new string(b, outerHyphens) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens * 2 - 1) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens);
+
+                Console.WriteLine(topMiddle);
+                innerHyphens += 2;
+                outerHyphens -= 1;
+            }
+
+            //Middle
+
+            string middle =
+                rh +
                 new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens*2-1) + rh +
-                new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens);
+                new string(b, innerHyphens) + rh;
 
-            Console.WriteLine(topMiddle);
-            innerHyphens += 2;
-            outerHyphens -= 1;
+            Console.WriteLine(middle);
 
-        }
+            //MiddleBottom
 
-        //Middle
-
-        string middle =
-            rh +
-            new string(b, innerHyphens) + rh +
-            new string(b, innerHyphens) + rh;
-
-        Console.WriteLine(middle);
-        //MiddleBottom
-        outerHyphens += 1;
-        innerHyphens -= 2;
-        for (int i = 0; i < n - 1; i++)
-        {
-            string topBottom =
-                new string(b, outerHyphens) + rh +
-                new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens*2-1) + rh +
-                new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens);
-
-            Console.WriteLine(topBottom);
             outerHyphens += 1;
             innerHyphens -= 2;
-        }
+            for (int i = 0; i < n - 1; i++)
+            {
+                string topBottom =
+                    new string(b, outerHyphens) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens * 2 - 1) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens);
 
-        //Top
+                Console.WriteLine(topBottom);
+                outerHyphens += 1;
+                innerHyphens -= 2;
+            }
 
-        top =
-            new string(b, n) + rh +
-            new string(b, n * 2 - 1) + rh +
-            new string(b, n);
+            //Top
 
-        Console.WriteLine(top);
+            top =
+                new string(b, n) + rh +
+                new string(b, n * 2 - 1) + rh +
+                new string(b, n);
 
-        //MiddleTop
-        outerHyphens = n - 1;
-        innerHyphens = 1;
+            Console.WriteLine(top);
 
-        for (int i = 0; i < n - 1; i++)
-        {
+            //MiddleTop
 
-            string topMiddle =
-                new string(b, outerHyphens) + rh +
+            outerHyphens = n - 1;
+            innerHyphens = 1;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                string topMiddle =
+                    new string(b, outerHyphens) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens * 2 - 1) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens);
+
+                Console.WriteLine(topMiddle);
+                innerHyphens += 2;
+                outerHyphens -= 1;
+            }
+
+            //Middle
+
+            middle =
+                rh +
                 new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens * 2 - 1) + rh +
-                new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens);
+                new string(b, innerHyphens) + rh;
 
-            Console.WriteLine(topMiddle);
-            innerHyphens += 2;
-            outerHyphens -= 1;
+            Console.WriteLine(middle);
 
-        }
+            //MiddleBottom
 
-        //Middle
-
-        middle =
-            rh +
-            new string(b, innerHyphens) + rh +
-            new string(b, innerHyphens) + rh;
-
-        Console.WriteLine(middle);
-        //MiddleBottom
-        outerHyphens += 1;
-        innerHyphens -= 2;
-        for (int i = 0; i < n - 1; i++)
-        {
-            string topBottom =
-                new string(b, outerHyphens) + rh +
-                new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens * 2 - 1) + rh +
-                new string(b, innerHyphens) + rh +
-                new string(b, outerHyphens);
-
-            Console.WriteLine(topBottom);
             outerHyphens += 1;
             innerHyphens -= 2;
+            for (int i = 0; i < n - 1; i++)
+            {
+                string topBottom =
+                    new string(b, outerHyphens) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens * 2 - 1) + rh +
+                    new string(b, innerHyphens) + rh +
+                    new string(b, outerHyphens);
+
+                Console.WriteLine(topBottom);
+                outerHyphens += 1;
+                innerHyphens -= 2;
+            }
+
+            //Bottom
+
+            Console.WriteLine(top);
         }
-
-        //Bottom
-
-        Console.WriteLine(top);
-
     }
 }
 

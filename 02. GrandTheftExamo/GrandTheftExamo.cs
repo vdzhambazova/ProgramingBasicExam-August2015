@@ -1,67 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace _02.GrandTheftExamo
+{
+    using System;
 
-
-    class GrandTheftExamo
+    public class GrandTheftExamo
     {
         static void Main()
         {
-        byte N = byte.Parse(Console.ReadLine());
+            byte number = byte.Parse(Console.ReadLine());
+            long[] intArr = new long[number * 2];
 
-        long[] intArr = new long[N * 2];
-
-        for(int i = 0; i < intArr.Length; i++)
-        {
-            intArr[i] = long.Parse(Console.ReadLine());
-        }
-
-        long thievesSlapped = 0;
-        long thievesEscaped = 0;
-        long sumOfBottles = 0;
-        
-
-        for (int i = 0; i<intArr.Length; i++)
-        {
-            if(i%2 == 0)
+            for (int i = 0; i < intArr.Length; i++)
             {
-                if (intArr[i] > 5)
+                intArr[i] = long.Parse(Console.ReadLine());
+            }
+
+            long thievesSlapped = 0;
+            long thievesEscaped = 0;
+            long sumOfBottles = 0;
+
+            for (int i = 0; i < intArr.Length; i++)
+            {
+                if (i % 2 == 0)
                 {
-                    thievesSlapped += 5;
-                    thievesEscaped += intArr[i] - 5;
+                    if (intArr[i] > 5)
+                    {
+                        thievesSlapped += 5;
+                        thievesEscaped += intArr[i] - 5;
+                    }
+                    else
+                    {
+                        thievesSlapped += intArr[i];
+                    }
                 }
                 else
                 {
-                    thievesSlapped += intArr[i];
+                    sumOfBottles += intArr[i];
                 }
+            }
+
+            long packs;
+            long bottles;
+
+            if (sumOfBottles % 6 == 0)
+            {
+                packs = sumOfBottles / 6;
+                bottles = 0;
             }
             else
             {
-                sumOfBottles += intArr[i];
+                packs = sumOfBottles / 6;
+                bottles = sumOfBottles - (packs * 6);
             }
-        }
 
-        long packs = 0;
-        long bottles = 0;
-
-        if (sumOfBottles % 6 == 0)
-        {
-            packs = sumOfBottles / 6;
-            bottles = 0;
+            Console.WriteLine("{0} thieves slapped.", thievesSlapped);
+            Console.WriteLine("{0} thieves escaped.", thievesEscaped);
+            Console.WriteLine("{0} packs, {1} bottles.", packs, bottles);
         }
-        else
-        {
-            packs = sumOfBottles / 6;
-            bottles = sumOfBottles -(packs*6);
-        }
-        
-
-        Console.WriteLine("{0} thieves slapped.", thievesSlapped);
-        Console.WriteLine("{0} thieves escaped.", thievesEscaped);
-        Console.WriteLine("{0} packs, {1} bottles.", packs, bottles);
-
-        }
+    }
 }
 

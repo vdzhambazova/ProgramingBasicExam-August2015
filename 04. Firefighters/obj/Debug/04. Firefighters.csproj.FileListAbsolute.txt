@@ -4,3 +4,6 @@ c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicP
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\04. Firefighters\bin\Debug\_04.Firefighters.pdb
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\04. Firefighters\obj\Debug\_04.Firefighters.exe
 c:\users\vdzhambazova\documents\visual studio 2015\Projects\01. The BetterMusicProducer\04. Firefighters\obj\Debug\_04.Firefighters.pdb
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\04. Firefighters\bin\Debug\_04.Firefighters.exe.config
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\04. Firefighters\obj\Debug\_04.Firefighters.exe
+C:\Users\Teo\Documents\GitHub\ProgramingBasicExamAugust2015\04. Firefighters\obj\Debug\_04.Firefighters.pdb
